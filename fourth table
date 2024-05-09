@@ -1,0 +1,36 @@
+CREATE TABLE Coaches(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+first_name VARCHAR(12) NOT NULL,
+last_name VARCHAR(12) NOT NULL,
+team_id VARCHAR(5),
+address_id INTEGER,
+FOREIGN KEY (team_id) REFERENCES team(id),
+FOREIGN KEY (address_id) REFERENCES address(id)
+);
+
+CREATE TABLE Teams(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+teams_name VARCHAR(12) NOT NULL
+);
+
+CREATE TABLE Guardians(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+first_name VARCHAR(12) NOT NULL,
+last_name VARCHAR(12) NOT NULL,
+phone_number INTEGER,
+address_id VARCHAR (15),
+FOREIGN KEY (address_id) REFERENCES address(id)
+);
+
+CREATE TABLE Players(
+id INTEGER PRIMARY KEY AUTOINCREMENT,
+first_name VARCHAR(12) NOT NULL,
+last_name VARCHAR(12) NOT NULL,
+date_of_birth INTEGER,
+address_id VARCHAR (15), 
+team_id INTEGER,
+guardian_id INTEGER,
+FOREIGN KEY (address_id) REFERENCES address(id),
+FOREIGN KEY (team_id) REFERENCES team(id),
+FOREIGN KEY (guardian_id) REFERENCES guardian(id)
+);

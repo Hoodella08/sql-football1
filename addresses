@@ -1,0 +1,87 @@
+INSERT INTO Addresses (
+                          id,
+                          first_line,
+                          postcode
+                      )
+                      VALUES (
+                          '1',
+                          '22 runaway street',
+                          'bt88ls'
+                      );
+
+INSERT INTO Addresses (
+                          id,
+                          first_line,
+                          postcode
+                      )
+                      VALUES (
+                          '2',
+                          '88 london street',
+                          'ls88hh'
+                      );
+
+INSERT INTO Addresses (
+                          id,
+                          first_line,
+                          postcode
+                      )
+                      VALUES (
+                          '3',
+                          'viale angeli',
+                          'cn12kk'
+                      );
+                      
+INSERT INTO Addresses (
+                          id,
+                          first_line,
+                          postcode
+                      )
+                      VALUES (
+                          '88',
+                          'viale angeli',
+                          'bt82ls'
+                      );
+                      
+                      INSERT INTO Addresses (
+                          id,
+                          first_line,
+                          postcode
+                      )
+                      VALUES (
+                          '98',
+                          'birmingham st',
+                          'bti9ls'
+                      );
+                      
+INSERT INTO Addresses (
+                          id,
+                          first_line,
+                          postcode
+                      )
+                      VALUES (
+                          '48',
+                          'viale luna',
+                          'bt33ls'
+                      );
+                      
+INSERT INTO Addresses (
+                          id,
+                          first_line,
+                          postcode
+                      )
+                      VALUES (
+                          '66',
+                          'viale sole',
+                          'bt82ls'
+                      );
+                      
+INSERT INTO Addresses (
+                          id,
+                          first_line,
+                          postcode
+                      )
+                      VALUES (
+                          '22',
+                          'viale italia',
+                          'bc80ls'
+                      );
